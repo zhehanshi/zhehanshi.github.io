@@ -1,4 +1,4 @@
-baseURL : 'zhehanshi.github.io'
+baseURL : 'https://zhehanshi.github.io/'
 languageCode : 'en-us'
 title : "Zhehan Shi"
 theme : PaperMod
