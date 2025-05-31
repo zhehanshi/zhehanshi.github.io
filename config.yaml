@@ -1,0 +1,23 @@
+baseURL : 'https://zhehanshi.github.io/'
+languageCode : 'en-us'
+title : "Zhehan Shi"
+theme : PaperMod
+
+menu:
+  main: 
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    - identifier: archives
+      name: Archives
+      url: /archives/
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 100
