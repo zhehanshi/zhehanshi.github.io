@@ -1,19 +1,113 @@
-baseURL : 'https://zhehanshi.github.io/'
-languageCode : 'en-us'
-title : "Zhehan Shi"
-theme : PaperMod
+baseURL: "https://zhehanshi.github.io/"
+languageCode: "en-us"
+title: "Zhehan Shi"
+theme: PaperMod
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Zhehan Shi"
+  description: "Personal blog and portfolio of Zhehan Shi"
+  keywords: [Blog, Portfolio, ZhehanShi, PaperMod]
+  author: "Zhehan Shi"
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "<link or abs url>"
+    favicon16x16: "<link or abs url>"
+    favicon32x32: "<link or abs url>"
+    apple_touch_icon: "<link or abs url>"
+    safari_pinned_tab: "<link or abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  profileMode:
+    enabled: false
+    title: "Zhehan Shi"
+    subtitle: "Welcome to my personal site"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Profile picture"
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Hi, I'm Zhehan 👋"
+    Content: "Welcome to my blog and portfolio."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/zhehanshi"
+    # - name: x
+      # url: "https://x.com/"
+    # - name: stackoverflow
+      # url: "https://stackoverflow.com/users/<your-id>"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  editPost:
+    URL: "https://github.com/zhehanshi/<your-repo>/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
-  main: 
-    # - identifier: categories
-    #   name: Categories
-    #   url: /categories/
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags/
-    # - identifier: about
-    #   name: About
-    #   url: /about/
+  main:
     - identifier: archives
       name: Archives
       url: /archives/
@@ -21,3 +115,9 @@ menu:
       name: Search
       url: /search/
       weight: 100
+
+pygmentsUseClasses: true
+
+markup:
+  highlight:
+    noClasses: false

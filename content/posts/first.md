@@ -1,7 +1,7 @@
 +++
-title = 'First'
-date = 2024-07-06T00:06:10-04:00
-draft = true
+title = 'perseverance'
+date = 2025-05-30T00:06:10-04:00
+# draft = true
 +++
 
 
@@ -11,24 +11,8 @@ draft = true
 
 # Header
 ## Another header
+This is a good tweet.
 
-Here is the list of good resources to understand transformer architecture.
+{{< tweet user="bencichy" id="1197752802929364992" >}}
 
-
-
-
-
-
-
-1. [Distilled AI on Transformer](https://aman.ai/primers/ai/transformers/)
-
-2. [Harvard Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
-
-3. [Fast.ai Transformer Tutorial](https://course.fast.ai/Lessons/lesson24.html)
-
-4. [Dive into Deep Learning on Transformer](https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html)
-
-
-5. [The Little Book of Deep Learning](https://fleuret.org/public/lbdl.pdf)
-
-6. [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
